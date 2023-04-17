@@ -1,3 +1,3 @@
 Q. What is the difference between git restore filename and git restore --staged filename?
-Ans :- git restore filename command used for unsatagged or discard the edtiting 
-       git restore --staged[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C filename used for [A[C[C[C[C[C[[[B[D[D[D[D[D[D removing file from stagging list
+Ans :- git restore filename command used for discard the changes and it will stop changed file to be added to the staged list (basket).  
+       git restore --staged filename command used for removing file from stagging list
